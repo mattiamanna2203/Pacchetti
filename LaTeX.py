@@ -342,9 +342,9 @@ if __name__ == "__main__":
 
    # Per creare un oggetto LaTeX
    doc = LaTeX(formato="V",
-               titolo_report="La storia del mezzapiotta",
+               titolo_report="Report semestrale",
                indice=True,
-               autore="Marco Rupinia",
+               autore="Mattia Manna",
                data="\\today",
                geometry="left=1cm"
    )
@@ -359,7 +359,7 @@ if __name__ == "__main__":
    doc.add_subsection("Nome subsubsection")
 
    # Aggiungere testo
-   doc.add_text("Originario di \\textbf{Frosinone}, \\textit{Marcolino} mezzapiotta si Laurea in architettura presso l'università Roma Tre")
+   doc.add_text("Testo da inserire")
 
    # Nuova pagina
    doc.add_newpage()
